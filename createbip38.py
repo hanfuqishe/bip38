@@ -71,8 +71,8 @@ img.paste(im, offset)   #paste the QR's into the background image..
 img.paste(im2,offset2)
 
 draw = ImageDraw.Draw(img)
-#font = ImageFont.truetype("Times New Roman.ttf",14)                        #print text above and below the QR's..
-font = ImageFont.truetype("Arial Bold.ttf",22)
+font = ImageFont.truetype("DejaVuSans.ttf",14)                        #print text above and below the QR's..
+#font = ImageFont.truetype("Arial Bold.ttf",22)
 draw.text((offs, 20), 'BIP38:  '+ bip, (255,255,255),font)
 draw.text((((img_w - im_w) / 2),(img_h - 40)),'Address:  '+ addr,(255,255,255),font)
 
