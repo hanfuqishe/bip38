@@ -2,7 +2,7 @@
 
 vanitygen (https://github.com/samr7/vanitygen) is an interesting software, but it doesn't support BIP38 encrypt.
 This script read the output file of vanitygen(-o option), and output a BIP38 encrypted private key in output file.
-This script also output the QRCode image in the same name folder
+This script also output the QRCode image in the same name folder.
 
 # bip38
 
