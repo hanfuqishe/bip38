@@ -63,7 +63,7 @@ def main(argv):
     if not qrcodefolder:
         os.makedirs(qrcodefoldername)
          
-    fout.write("Address, BIP38 Encrypted Private Key\n")
+    fout.write("Address,BIP38 Encrypted Private Key\n")
 
     while True:
         line = fin.readline()
